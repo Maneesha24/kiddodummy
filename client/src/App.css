@@ -1,0 +1,46 @@
+.App {
+  color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  font-size: 1rem;
+  color: navy;
+  border: 2px solid navy;
+}
+
+button:hover{
+  background-color: navy;
+  color: white;
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+input{
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  width: 300px;
+}
+
+.register-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form{
+  text-align: center;
+margin-right: 3rem;
+}
+
+h3{
+  color: navy;
+}
